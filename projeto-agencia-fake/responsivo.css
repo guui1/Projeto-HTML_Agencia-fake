@@ -1,0 +1,59 @@
+@media screen and (max-width: 1062px){
+    .menu{
+        display: none;
+    }
+    .navbar{
+        position: relative;
+    }
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+    .header{
+    padding-top: 0;
+        }
+    .headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .headline p{
+        text-align: center;
+        font-size: medium;
+    }
+    .img-headline img{
+        flex:100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .wpp{
+        display: none;
+    }
+    .servicos{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin: auto;
+        margin-bottom: 70px;
+        width: 100%;
+    }
+
+
+}
+@media screen and (max-width: 600px ){
+    .headlinesize {
+        font-size: 55px;
+    }
+
+    .headline p {
+        font-size: small;
+    }
+    .headline a{
+        margin-top: 30px;
+        padding: 10px;
+    }
+    section h2{
+        font-size: 40px;
+    }
+}
